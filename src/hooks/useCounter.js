@@ -4,6 +4,8 @@ import { useState } from "react"
 export const useCounter = (initialState = 10) => {
     const [state, setState] = useState(initialState)
 
+
+    console.log(state);
     const reset = () => {
         setState(initialState);
     }
