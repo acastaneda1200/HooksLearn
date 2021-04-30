@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 //import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 //import { MultipleCustomHooks } from './components/03-Examples/MultipleCustomHooks';
 //import { RealExampleRef } from './components/04-useRef/RealExampleRef';
-import { Padre } from './components/07-tarea-memo/Padre';
+//import { Padre } from './components/07-tarea-memo/Padre';
+//import { TodoApp } from './components/08-useReducer/TodoApp';
+import { MainApp } from './components/09-useContext/MainApp';
 //import { SimpleForm } from './components/02-useEffect/SimpleForm';
 //import { CounterApp } from './components/CounterApp';
 //import { CounterWithCustomHook } from './components/CounterWithCustomHook';
@@ -11,7 +13,7 @@ import { Padre } from './components/07-tarea-memo/Padre';
 
 
 ReactDOM.render(
- <Padre />,
+ <MainApp />,
   document.getElementById('root')
 );
 
